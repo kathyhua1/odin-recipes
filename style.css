@@ -1,21 +1,117 @@
-SS File (styles.css):
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-/* styles.css */
 body {
-    background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
-    margin: 20;
-    padding: 20;
+    font-family: Roboto, sans-serif;
+    color: #333;
+    line-height: 1.6;
 }
 
-h1 {
-    color: #502c3d;
+/*Hero Section*/
+.hero{
+    background: #172937;
+    color: #f9faf8;
     text-align: center;
-    margin-top: 50px;
+    padding: 100px 20px;
 }
 
-p {
-    color: #5e3454;
-    font-size: 18px;
+.hero-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; 
+    max-width: 1200px; 
+    gap: 20 px;
+}
+
+.hero-text {
+    flex: 1;
+    max-width: 600px;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    background: white;
+    color: #3882f6;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+    background: #1f2937;
+}
+
+/* Cards Section */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 20px;
     text-align: center;
+}
+
+.cards h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 250px;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Quote Section */
+.quote {
+    background: #ffefef;
+    padding: 50px 20px;
+    text-align: center;
+    font-style: italic;
+    color: #555;
+}
+
+.quote blockquote {
+    font-size: 1.5rem;
+}
+
+/* Banner Section */
+.banner {
+    background: linear-gradient(90deg, #ff758c, #ff7eb3);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.banner h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
 }

@@ -2,13 +2,74 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Recipes</title>
+    <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
-    <h1>Odin Recipes</h1>
-    <ul>
-   <li><a href="recipes/beef_noodle_soup.html">Recipe Title</a></li>
-</ul>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero text">
+                <h1>This website is awesome</h1>
+                <p>This is a recipe website and adventure in one.</p>
+                <a href="#cards" class="cta-button">Sign Up</a>
+            </div>
+             <div class="hero-image">
+                <img src="https://via.placeholder.com/400" alt="Hero Image">        </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recipe Cards -->
+    <section id="cards", class="cards">
+        <h2>The recipes</h2>
+        <div class="card-container">
+            <a href="recipes/beef_noodle_soup.html" class="card-link">
+                 <div class ="card">
+                    <div class ="card-text">
+                        <h3>Beef Noodle Soup</h3>
+                        <p>Warm, comfort and warmth in a bowl</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="card-container">
+            <a href="recipes/tomato_egg.html" class="card-link">
+                <div class ="card">
+                   <div class ="card-text">
+                       <h3>Chinese Tomato Egg</h3>
+                       <p>Simple filling weeknight meal</p>
+                   </div>
+               </div>
+           </a>
+        </div>
+        <div class="card-container">
+           <a href="recipes/coconut_cassava_cake.html" class="card-link">
+            <div class ="card">
+               <div class ="card-text">
+                   <h3>Coconut Cassava Cake</h3>
+                   <p>A tasty dessert for any weeknight</p>
+               </div>
+           </div>
+            </a>
+        </div>  
+    </section>
+     <!-- Quote Section -->
+     <section class="quote">
+        <blockquote>
+            "These are the best recipes I've ever had"
+        </blockquote>
+    </section>
+     <!-- Banner -->
+     <section class="banner">
+        <div class="banner-content">
+            <h2>Call to Action Time</h2>
+            <p>Sign up for our product</p>
+        </div>
+        <div class="banner-button">
+            <a href="#cards" class="cta-button">Sign Up"</a>
+        </div>
   </body>
 </html>
