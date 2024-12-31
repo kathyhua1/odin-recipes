@@ -1,7 +1,7 @@
 /* General Styles */
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-style: Roboto;
     line-height: 1.6;
     background-color: #f4f4f9;
 }
@@ -19,6 +19,7 @@ a {
     padding: 20px;
     background-color: #1e293b;
     color: white;
+    max-width: 1200px; 
 }
 
 .nav-links a {
@@ -34,6 +35,7 @@ a {
     padding: 40px;
     background-color: #1e293b;
     color: white;
+    max-width: 1200px; 
 }
 
 .hero-text h1 {
@@ -69,6 +71,7 @@ a {
     text-align: center;
     padding: 40px 20px;
     background-color: white;
+    max-width: 1200px; 
 }
 
 .info h2 {
@@ -100,6 +103,7 @@ a {
     padding: 40px 20px;
     text-align: center;
     font-style: italic;
+    max-width: 1200px; 
 }
 
 .quote footer {
@@ -113,6 +117,7 @@ a {
     padding: 40px 20px;
     background-color: #2563eb;
     color: white;
+    max-width: 1200px; 
 }
 
 .cta .btn {
