@@ -50,7 +50,7 @@ nav a:hover {
     justify-content: space-between;
     color: #f9faf8;
     text-align: left;
-    padding: 40px 20px;
+    padding: 40px;
 }
 
 
@@ -60,12 +60,12 @@ nav a:hover {
 }
 
 .hero-text h1 {
-    font-size: 3rem;
+    font-size: 36px;
     margin-bottom: 20px;
 }
 
 .hero-text p {
-    font-size: 1.2rem;
+    font-size: 18px;
     margin-bottom: 20px;
 }
 
@@ -84,39 +84,45 @@ nav a:hover {
     background: #1f2937;
 }
 
+.hero-image {
+    width: 300px;
+    height: 200px;
+    background-color: #6b7280;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
 /* Cards Section */
 .cards {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 40px 20px;
+    text-align: center;
+    padding: 40px 20px;
+    background-color: white
 }
 
 .cards h2 {
-    font-size: 2rem;
-    color: #1f2937
+    font-size: 24px;
+    color: #1f2937;
     margin-bottom: 20px;
 }
 
 .card-container {
     display: flex;
     justify-content: center;
-    align-items: center;
-    text-align: center; 
-    margin: 20px;
+    gap: 20px;
 }
 
 .card {
     width: 100px;
     height: 100px;
-    background-color: #3882fb;
+    border: 2px solid #2563eb;
     border-radius: 10px;
-    margin-bottom: 10px;
+    margin: 0 auto 10px;
 }
 
 .card-text {
     font-size: .5rem;
-    margin-bottom: 10px;
+    text-align:center ;
     color: #1f2937
 }
 
@@ -134,14 +140,19 @@ nav a:hover {
 }
 
 /* Banner Section */
-.banner {
+.cta{
     background: #3882fb;
     color: white;
     text-align: center;
-    padding: 50px 20px;
+    padding: 40px 20px;
 }
 
-.banner h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
+.cta .btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: white;
+    color: #3882fb
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
 }
