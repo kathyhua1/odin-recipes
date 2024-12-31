@@ -11,6 +11,37 @@ body {
     line-height: 1.6;
 }
 
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #f39c12;
+}
+
 /*Hero Section*/
 .hero{
     background: #172937;
@@ -60,43 +91,46 @@ body {
 /* Cards Section */
 .cards {
     display: flex;
-    flex-wrap: wrap;
-    padding: 50px 20px;
-    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 20px;
 }
 
 .cards h2 {
     font-size: 2rem;
+    color: #1f2937
     margin-bottom: 20px;
 }
 
 .card-container {
     display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
+    justify-content: column;
+    align-items: center;
+    text-align: center; 
+    margin: 20px;
 }
 
 .card {
-    background: #f8f8f8;
-    padding: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: #3882fb;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 250px;
+    margin-bottom: 10px;
 }
 
-.card h3 {
+.card-text {
     font-size: 1.5rem;
     margin-bottom: 10px;
+    color: #1f2937
 }
 
 /* Quote Section */
 .quote {
-    background: #ffefef;
+    background: #e5e7eb;
     padding: 50px 20px;
     text-align: center;
     font-style: italic;
-    color: #555;
+    color: #1f2937;
 }
 
 .quote blockquote {
@@ -105,7 +139,7 @@ body {
 
 /* Banner Section */
 .banner {
-    background: linear-gradient(90deg, #ff758c, #ff7eb3);
+    background: #3882fb;
     color: white;
     text-align: center;
     padding: 50px 20px;
