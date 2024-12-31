@@ -1,90 +1,60 @@
-/* General Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
+/* General Styles */
 body {
-    font-family: Roboto, sans-serif;
-    color: #333;
+    margin: 0;
+    font-family: Arial, sans-serif;
     line-height: 1.6;
+    background-color: #f4f4f9;
 }
 
-/* Header Styles */
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: #333;
-    color: white;
-}
-
-.logo {
-    font-size: 20px;
-    font-weight: bold;
-}
-
-nav {
-    display: flex;
-    gap: 20px;
-}
-
-nav a {
+a {
     text-decoration: none;
     color: white;
-    font-size: 16px;
-    transition: color 0.3s;
 }
 
-nav a:hover {
-    color: #f39c12;
-}
-
-/*Hero Section*/
-.hero{
-    background: #172937;
-    display: flex; 
-    align-items: center;
+/* Header */
+.header {
+    display: flex;
     justify-content: space-between;
-    color: #f9faf8;
-    text-align: left;
-    padding: 40px;
+    align-items: center;
+    padding: 20px;
+    background-color: #1e293b;
+    color: white;
 }
 
+.nav-links a {
+    margin: 0 10px;
+    font-size: 16px;
+}
 
-.hero-text {
-    flex: 1;
-    max-width: 600px;
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: #1e293b;
+    color: white;
 }
 
 .hero-text h1 {
     font-size: 36px;
-    margin-bottom: 20px;
 }
 
 .hero-text p {
     font-size: 18px;
-    margin-bottom: 20px;
+    margin: 10px 0;
 }
 
-.cta-button {
-    display: inline-block;
-    background: white;
-    color: #3882f6;
+.hero-text .btn {
     padding: 10px 20px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    cursor: pointer;
     border-radius: 5px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: background 0.3s ease;
 }
 
-.cta-button:hover {
-    background: #1f2937;
-}
-
-.hero-image {
+.hero-image .image-placeholder {
     width: 300px;
     height: 200px;
     background-color: #6b7280;
@@ -93,26 +63,30 @@ nav a:hover {
     align-items: center;
     color: white;
 }
-/* Cards Section */
-.cards {
+
+/* Information Section */
+.info {
     text-align: center;
     padding: 40px 20px;
-    background-color: white
+    background-color: white;
 }
 
-.cards h2 {
+.info h2 {
     font-size: 24px;
-    color: #1f2937;
     margin-bottom: 20px;
 }
 
-.card-container {
+.info-grid {
     display: flex;
     justify-content: center;
     gap: 20px;
 }
 
-.card {
+.info-item {
+    text-align: center;
+}
+
+.info-box {
     width: 100px;
     height: 100px;
     border: 2px solid #2563eb;
@@ -120,39 +94,41 @@ nav a:hover {
     margin: 0 auto 10px;
 }
 
-.card-text {
-    font-size: .5rem;
-    text-align:center ;
-    color: #1f2937
-}
-
 /* Quote Section */
 .quote {
-    background: #e5e7eb;
-    padding: 50px 20px;
+    background-color: #e5e7eb;
+    padding: 40px 20px;
     text-align: center;
     font-style: italic;
-    color: #1f2937;
 }
 
-.quote blockquote {
-    font-size: 1.5rem;
+.quote footer {
+    margin-top: 10px;
+    font-weight: bold;
 }
 
-/* Banner Section */
-.cta{
-    background: #3882fb;
-    color: white;
+/* Call-to-Action Section */
+.cta {
     text-align: center;
     padding: 40px 20px;
+    background-color: #2563eb;
+    color: white;
 }
 
 .cta .btn {
     margin-top: 10px;
     padding: 10px 20px;
     background-color: white;
-    color: #3882fb
+    color: #2563eb;
     border: none;
     cursor: pointer;
     border-radius: 5px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #1e293b;
+    color: white;
 }

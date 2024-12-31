@@ -1,72 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Recipes</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-
-  <body>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
     <!-- Header -->
-    <header>
-        <div class="logo">MyWebsite</div>
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
+    <header class="header">
+        <div class="logo">Header Logo</div>
+        <nav class="nav-links">
+            <a href="#">header link one</a>
+            <a href="#">header link two</a>
+            <a href="#">header link three</a>
         </nav>
     </header>
-  </body>
-  <body>
+
     <!-- Hero Section -->
     <section class="hero">
-            <div class="hero-text">
-                <h1>This website is awesome</h1>
-                <p>This is a recipe website and adventure in one.</p>
-                <a href="#cards" class="cta-button">Sign Up</a>
-            </div>
-             <div class="hero-image">
-                <img src="https://via.placeholder.com/400" alt="Hero Image"> </div>
-            </div>
+        <div class="hero-text">
+            <h1>This website is awesome</h1>
+            <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
+            <button class="btn">Sign up</button>
+        </div>
+        <div class="hero-image">
+            <div class="image-placeholder">this is a placeholder for an image</div>
+        </div>
     </section>
 
-    <!-- Recipe Cards -->
-    <section class= "cards">
-        <h2>The recipes</h2>
-        <div class="card-container">
-                 <div class ="card">
-                    <div class ="card-text">
-                        <p>Warm, comfort and warmth in a bowl</p>
-                    </div>
-                </div>
+    <!-- Information Section -->
+    <section class="info">
+        <h2>Some random information.</h2>
+        <div class="info-grid">
+            <div class="info-item">
+                <div class="info-box"></div>
+                <p>this is some subtext under an illustration or image</p>
+            </div>
+            <div class="info-item">
+                <div class="info-box"></div>
+                <p>this is some subtext under an illustration or image</p>
+            </div>
+            <div class="info-item">
+                <div class="info-box"></div>
+                <p>this is some subtext under an illustration or image</p>
+            </div>
+            <div class="info-item">
+                <div class="info-box"></div>
+                <p>this is some subtext under an illustration or image</p>
+            </div>
         </div>
-        <div class="card-container">
-                <div class ="card">
-                   <div class ="card-text">
-                       <p>Simple filling weeknight meal</p>
-                   </div>
-               </div>
-        </div>
-        <div class="card-container">
-            <div class ="card">
-               <div class ="card-text">
-                   <p>A tasty dessert for any weeknight</p>
-               </div>
-           </div>
-        </div>  
     </section>
-     <!-- Quote Section -->
-     <section class="quote">
+
+    <!-- Quote Section -->
+    <section class="quote">
         <blockquote>
-            "These are the best recipes I've ever had"
+            <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
+            <footer>- Thor, God of Thunder</footer>
         </blockquote>
     </section>
-     <!-- Banner -->
-     <section class="cta">
-            <h2>Call to Action Time</h2>
-            <p>Sign up for our product</p>
-            <button class ="btn"> Sign up </button>
+
+    <!-- Call-to-Action Section -->
+    <section class="cta">
+        <h2>Call to action! It's time!</h2>
+        <p>Sign up for our product by clicking that button right over there!</p>
+        <button class="btn">Sign up</button>
     </section>
-  </body>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Copyright © The Odin Project 2021</p>
+    </footer>
+</body>
 </html>
