@@ -13,9 +13,6 @@ a {
 
 /* Header */
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 20px;
     background-color: #1e293b;
     color: white;
@@ -23,6 +20,9 @@ a {
 
 .header-content {
     max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .nav-links a {
