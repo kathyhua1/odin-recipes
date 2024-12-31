@@ -34,8 +34,12 @@ a {
     padding: 40px;
     background-color: #1e293b;
     color: white;
+    max-width: 100%;
 }
 
+.hero-container {
+    max-width: 1200px;
+}
 .hero-text h1 {
     font-size: 36px;
 }
