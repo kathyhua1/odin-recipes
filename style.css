@@ -16,13 +16,12 @@ a {
     padding: 20px;
     background-color: #1e293b;
     color: white;
-    margin: 0 auto; 
+    align-items: center;
 }
 
 .header-content {
     max-width: 1200px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
