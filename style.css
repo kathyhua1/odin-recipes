@@ -29,16 +29,19 @@ a {
 /* Hero Section */
 .hero {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 40px;
+    justify-content: center;
+    padding: 60px 20px;
     background-color: #1e293b;
     color: white;
-    max-width: 100%;
 }
 
 .hero-container {
     max-width: 1200px;
+    display: flex;
+    align-items:center; 
+    width: 100%;
+    margin: 0 auto;
+    gap: 20px
 }
 .hero-text h1 {
     font-size: 36px;
