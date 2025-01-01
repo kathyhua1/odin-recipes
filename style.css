@@ -55,6 +55,7 @@ a {
 }
 
 .hero-text p {
+    max-width: 600px;
     font-size: 18px;
     margin: 10px 0;
 }
@@ -69,8 +70,8 @@ a {
 }
 
 .hero-image .image-placeholder {
-    width: 300px;
-    height: 200px;
+    width: 600px;
+    height: 400px;
     background-color: #6b7280;
     display: flex;
     justify-content: center;
