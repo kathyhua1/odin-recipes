@@ -1,7 +1,7 @@
 /* General Styles */
 body {
     margin: 0;
-    font-style: Roboto;
+    font-family: 'Roboto', sans-serif;
     line-height: 1.6;
     background-color: #f4f4f9;
 }
@@ -126,6 +126,12 @@ a {
 
 /* Call-to-Action Section */
 .cta {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: white;
+}
+
+.banner {
     text-align: center;
     padding: 40px 20px;
     background-color: #2563eb;
